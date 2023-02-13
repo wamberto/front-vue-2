@@ -1,6 +1,7 @@
 import Vue from 'vue';
 
 import VueSweetalert2 from 'vue-sweetalert2';
+import Vuelidate from 'vuelidate';
 import App from './App.vue';
 import router from './router';
 
@@ -10,6 +11,7 @@ import 'nprogress/nprogress.css';
 Vue.config.productionTip = false;
 
 Vue.use(VueSweetalert2);
+Vue.use(Vuelidate);
 
 new Vue({
   router,
